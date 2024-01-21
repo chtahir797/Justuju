@@ -1,0 +1,45 @@
+#hero {
+    background-image: url('/src/party.jpg');
+    opacity: 0.7;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    transition: background-image 2s ease-in-out;
+}
+
+.hero-content {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.hero-btn {
+    display: inline-block;
+    background-color: #FDEECB;
+    color: #383A55;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 0.3rem;
+    transition: background-color 0.3s;
+}
+
+.hero-btn:hover {
+    background-color: #383A55;
+    color: #FDEECB;
+}
